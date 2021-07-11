@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ramabhadra&family=Staatliches&display=swap');
+
+/* font size changeable and other web browsers*/
+
+/*h3 = poppins, h1 staatliches, h2 ramahadra*/
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+ }
+
+ ::selection {
+   background:#f4f4f4;
+   color: #444B4D;
+ }
+
+ body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 27px;  
+ }
+
+header {
+    background-color: #444B4D;
+    color:#BAE7F0;
+    text-align:center;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 40px;
+    overflow: hidden;
+   /* position: sticky;
+    top: 0;
+    z-index: 1;*/
+}
+
+.navhighlight {
+  color:#BAE7F0;
+}
+
+h1{
+  font-family: 'Staatliches', cursive;
+  text-align: center;
+  font-size: 70px;
+  color:#444B4D;
+}
+
+
+h2 {
+  font-family: 'Ramabhadra', sans-serif;
+    font-size: 57px;
+    color:#444B4D;
+    padding-top: 1.5%;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: #444B4D;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 47px;
+  color: #444B4D;
+  line-height: 140%;
+  padding-bottom: 1.5%;
+}
+
+p.date{
+  font-family: 'Poppins', sans-serif;
+  font-size: 35px;
+  color: #606668;
+    padding-bottom: 0.9%;
+}
+
+p.daydate{
+  font-family: 'Ramabhadra', sans-serif;
+  font-size: 40px;
+    color:#3b4142;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+a {
+    color: #F8F8F8;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#BAE7F0;
+    text-decoration: none;
+}
+
+
+body {
+    background-color: #F8F8F8;
+    margin: 0px;
+}
+
+  /*font size changes*/
+  @media screen and (min-width: 1182px) { 
+
+.navhighlight {
+  color:#BAE7F0;
+}
+
+h1{
+  font-size: 70px;
+;
+}
+
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+p{
+  font-size: 47px;
+}
+
+p.date{
+  font-size: 35px;
+}
+
+p.daydate{
+  font-size: 40px;
+}
+  }
+
+  @media screen and (max-width: 910px) {
+    header {
+      background-color: #444B4D;
+      color:#BAE7F0;
+      text-align:center;
+      font-family: 'Ramabhadra', sans-serif;
+      font-size: 29px;
+      overflow: hidden;
+  }
+
+    h2 {
+        font-size: 40px;
+    }
+    
+    h3 {
+      font-size: 40px;
+  }
+
+    p{
+      font-size: 32px;
+    }
+    
+    p.date{
+
+      font-size: 30px;
+
+    }
+    
+    p.daydate{
+      font-size: 30px;
+    }
+      }
+
+      @media screen and (max-width: 733px) {
+        header {
+          background-color: #444B4D;
+          color:#BAE7F0;
+          text-align:center;
+          font-family: 'Ramabhadra', sans-serif;
+          font-size: 23px;
+          overflow: hidden;
+      }
+    }
+
+    h3 {
+      font-size: 30px;
+  }
+
+      @media screen and (max-width: 670px) {
+        header {
+          background-color: #444B4D;
+          color:#BAE7F0;
+          text-align:center;
+          font-family: 'Ramabhadra', sans-serif;
+          font-size: 20px;
+          overflow: hidden;
+      }
+
+      h3 {
+        font-size: 32px;
+    }
+
+      p{
+          font-size: 27px;
+        }
+        
+        p.date{
+          font-size: 28px;
+        }
+        
+        p.daydate{
+          font-size: 30px;
+        }
+      }
+
+      /*parallax scrolling*/
+
+      .vietnambanner {
+        background-image: url("images/banners/vietnambanner.jpg");
+      
+        min-height: 800px; 
+      
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .thailandbanner {
+        background-image: url("images/banners/thailandbanner.jpg");
+      
+        min-height: 800px; 
+      
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .singaporebanner {
+        background-image: url("images/banners/singaporebanner.jpg");
+      
+        min-height: 800px; 
+      
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .homebanner {
+        background-image: url("images/banners/homebanner.jpg");
+      
+        min-height: 700px; 
+      
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      @media screen and (max-width: 1200px) { 
+        .vietnambanner {
+          min-height: 500px;
+        }
+  
+        .thailandbanner {        
+          min-height: 500px; 
+        }
+  
+        .singaporebanner {        
+          min-height: 500px; 
+        }
+  
+        .homebanner {
+          min-height: 400px;
+        }
+      }
+
+      @media screen and (max-width: 800px) { 
+        .vietnambanner {
+          min-height: 300px;
+        }
+  
+        .thailandbanner {        
+          min-height: 300px; 
+        }
+  
+        .singaporebanner {        
+          min-height: 300px; 
+        }
+  
+        .homebanner {
+          min-height: 350px;
+        }
+      }
+  /*scroll button*/
+  .top {
+    position: fixed;
+    z-index: 99;
+    bottom: 10px;
+    right: 10px;
+    max-width: 90px;
+    max-height: 90px;
+    width: 100%;
+    height: 100%;
+    padding: .7px;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .zoomarrow {
+    transition: transform 0.2s;
+    margin: 0px 0px 0px 0px;
+  } 
+    
+  .zoomarrow:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+  
+  /*day navbar section*/
+  
+  .day-navbar {
+    background-color: #50585a;
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #F8F8F8;
+  }
+
+  .dayhover:hover {
+    background-color: #f4f4f4;
+    color: #444B4D;
+  }
+
+  .dayhover {
+    margin: 1%;
+  }
+
+  @media screen and (max-width: 871px) {
+    .day-navbar {
+      background-color: #444B4D;
+      font-family: 'Ramabhadra', sans-serif;
+      font-size: 40px;
+      text-align: center;
+      padding-left: 2%;
+      padding-right: 2%;
+      color: #F8F8F8;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .day-navbar {
+      background-color: #444B4D;
+      font-family: 'Ramabhadra', sans-serif;
+      font-size: 35px;
+      text-align: center;
+      padding-left: 2%;
+      padding-right: 2%;
+      color: #F8F8F8;
+    }
+  }
+  
+
+  /* drop down navigation*/
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown .dropbtn:hover {
+  color: #BAE7F0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #444B4D;
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #f8f8f8  ;
+  padding: 1%;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #BAE7F0;
+  color:#444B4D;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+  /*image grid*/
+  .box { /*image container*/
+    padding: 2%;
+    background-color: #F8F8F8;
+  }
+
+  .space-around { /*each row of images*/
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .img {
+    max-height: 550px;
+    margin: 1%;
+    height: 100%;
+  }
+
+  @media screen and (max-width: 1628px) {
+    .img {
+    max-height: 450px;
+    margin: 0.5%;
+  }
+  }
+
+  @media screen and (max-width: 1353px) {
+    .img {
+    max-height: 400px;
+    margin: 0.5%;
+  }
+  }
+
+  @media screen and (max-width: 1190px) {
+    .img {
+    max-height: 340px;
+    margin: 0.5%;
+  }
+  }
+
+  @media screen and (max-width: 1001px) {
+    .img {
+    max-height: 270px;
+    margin: 0.5%;
+  }
+  }
+
+  @media screen and (max-width: 810px) {
+    .img {
+    max-height: 200px;
+    margin: 1%;
+  }
+  }
+
+  @media screen and (max-width: 640px) {
+    .img {
+    max-height: 150px;
+    margin: 1%;
+  }
+  }
+  
+  
+  /*footer*/
+
+  .footerimg{
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+
+  .footersection {
+    background-color: #444B4D;
+    color:#F8F8F8;
+    align-items: center;
+    text-align: center;
+  }
+  
+
+  footer {
+    background-color: #444B4D;
+    color:#F8F8F8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 37px;
+  }
+
+  .boldfootertext {
+    font-size: 46px;
+    font-family: 'Ramabhadra', sans-serif;
+    color: #F8F8F8;
+  }
+
+
+@media screen and (max-width: 800px) {
+  footer {
+    background-color: #444B4D;
+    color:#F8F8F8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+  }
+
+  .boldfootertext {
+    font-size: 36px;
+    font-family: 'Ramabhadra', sans-serif;
+    color: #F8F8F8;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  footer {
+    background-color: #444B4D;
+    color:#F8F8F8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+  }
+
+  .boldfootertext {
+    font-size: 30px;
+    font-family: 'Ramabhadra', sans-serif;
+    color: #F8F8F8;
+  }
+} 
+
+
+/*containers*/
+
+
+/*container for text on banner*/
+.bannertext {
+    position: relative;
+    text-align: center;
+    color:#3a4346;
+    font-family: 'Staatliches', cursive;
+    font-size: 160px;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /*container for navigation bar*/
+  .container {
+    display: flex;
+  }
+
+  .container.space-around {
+    justify-content: space-around;
+  }
+
+  /*code for homepage imgs*/
+
+  .homepagecolumn {
+    flex: 33%;
+        padding: 7%;
+      align-content: center;
+      text-align: center;
+      align-items: center;
+      
+  }
+  
+  .homepagerow {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 600px) {
+    .homepagecolumn {
+      width: 100%;
+    }
+  }
+
+  /* homepage image zoom*/
+  .homepageimg {
+    width: 100%;
+    }
+
+  .zoom {
+  transition: transform 0.5s;
+  margin: 0px 0px 0px 0px;
+} 
+  
+.zoom:hover {
+  -ms-transform: scale(1.07); /* IE 9 */
+  -webkit-transform: scale(1.07); /* Safari 3-8 */
+  transform: scale(1.07); 
+}
+
+/*classes for colour sections*/
+
+.darkbluebackground{
+  margin: 0;
+  background-color: #BAE7F0;
+  padding-left:3%;
+  padding-right: 3%;
+  padding-top: 0;
+  padding-bottom: 1%;
+}
+
+.lightblue {
+  background-color: #E0F2F1 ;
+  color: #444B4D;
+  padding-left:3%;
+padding-right: 3%;
+padding-top: 0;
+padding-bottom: 1%;
+}
+
+/*line*/
+
+hr.blueline {
+  border: 10px solid #BAE7F0;
+}
+
+hr.bigblueline {
+  border: 40px solid #BAE7F0;
+}
+
+hr.navline{
+  border: 5px solid #E0F2F1;
+}
+
+  /*id*/
+  
+  #lightbluehome {
+      background-color: #E0F2F1 ;
+      padding: 70px 10px;
+      font-size: 50px;
+  }
+
