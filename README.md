@@ -40,6 +40,7 @@ The website is structured as follows:
 Unfortunately, the images are currently missing from the repository, but the layout and design remain functional. 
 Here's what the website would typically look like:
 
-[![Watch Demo]([asia_preview.png)]([https://youtu.be/BiUvxkGO8Dc](https://drive.google.com/file/d/1Q8FXnXXB_yyKk13DlkqXE5JiEXnFpgCE/view?usp=sharing))
+[![Watch Demo](asia_preview.png)](https://drive.google.com/file/d/1Q8FXnXXB_yyKk13DlkqXE5JiEXnFpgCE/view?usp=sharing)
+
 
 *Click the image for earlier site preview*
